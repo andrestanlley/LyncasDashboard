@@ -6,7 +6,7 @@ O principal objetivo era fortalecer a base em HTML, CSS e Javascript, para isso 
 e SQL Server como SGBD.
 
 ## Funcionalidades
-O sistema contém funcionalidades básicas de um CRUD, com possibilidade de registrar, editar, buscar e deletar usúarios, também fizemos um sistema de login e autenticação das rotas
+O sistema contém funcionalidades básicas de um CRUD, com possibilidade de registrar, editar, buscar e deletar usúarios, também fizemos um sistema de login e autenticação das rotas<br>
 PS: O controle de sessão se dá no frontend nesse projeto, embora não seja o ideal, utilizamos para fins didaticos mais uma vez fortalecendo a base em Javascript.
 
 ## Telas
