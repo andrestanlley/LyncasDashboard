@@ -1,0 +1,12 @@
+.vscode
+backend/.vs
+backend/.vscode
+backend/PressStart/.vs
+backend/PressStart/.vscode
+backend/PressStart/bin
+backend/PressStart/debug
+.gitlab-ci.yml
+README.md
+.vs
+bin
+obj

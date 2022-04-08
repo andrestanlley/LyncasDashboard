@@ -1,0 +1,62 @@
+#registerForm{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-weight: 800;
+    height: 100%;
+    width: 100%;
+}
+
+#registerForm h1{
+    font-size: 1.5625rem;
+    margin-bottom: 1.875rem;
+}
+
+#registerForm button{
+    background: #363062;
+    width: max-content;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-top: 1.25rem;
+}
+
+input[type="password"]{
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row-content input{
+    margin-top: 0.5rem;
+    background: white;
+    border-radius: 0.25rem;
+    height: 2rem;
+    padding: 0.3125rem;
+    outline: solid rgba(128, 128, 128, 0.384) 0.0625rem;
+    width: 100%;
+}
+
+.row-content{
+    display: flex;
+}
+
+.container-content{
+    width: 100%;
+    margin: 0.75rem;
+}
+
+@media (max-width: 50rem){
+    .row-content{
+        flex-direction: column;
+    }
+
+    .row-content input{
+        width: 95%;
+    }
+
+    .container-content{
+        width: 100%;
+        margin: 0.75rem;
+    }
+
+}

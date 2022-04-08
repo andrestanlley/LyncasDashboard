@@ -1,0 +1,90 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: white;
+    width: 27rem;
+    min-height: 100vh;
+}
+
+.logo{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo > img{
+    width: 60%;
+}
+
+.login-box{
+    background: white;
+    width: 100%;
+    border-radius: 0.25rem 0.25rem 0.25rem 0.25rem;
+    outline: solid rgba(128, 128, 128, 0.384) 0.0625rem;
+}
+
+#welcome-text{
+    background: #383062;
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-radius: 0.25rem 0.25rem 0rem 0rem;
+    padding: 1rem;
+    font-family: "MerriweatherSans-Light";
+    font-size: 1.375rem;
+}
+
+#login-form{
+    display: flex;
+    flex-direction: column;
+    padding: 2.25rem;
+}
+
+input{
+    padding: .7rem;
+    border-style: none;
+    height: 2rem;
+    margin-bottom: 1rem;
+    outline: none;
+    border: 1px solid #bac1ca;
+    border-radius: .4rem;
+    background: transparent;
+}
+
+input#password{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button{
+    background: #383062;
+    color: white;
+    border-style: none;
+    height: 2.625rem;
+    border-radius: 2rem;
+    font-family: "MerriweatherSans-Light";
+    transition: all 2s ease;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #54498d;
+    letter-spacing: 0.0625rem;
+}
+
+@media (max-width: 43.75rem){
+    main{
+        max-width: 80vw;
+    }
+}
