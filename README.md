@@ -25,7 +25,7 @@ PS: O controle de sessão se dá no frontend nesse projeto, embora não seja o i
 * Edição
 ![image](https://user-images.githubusercontent.com/82134080/162427941-8e97d014-6018-4154-80e0-2521accf5db2.png)
 
-* Responsividade<br>
+* Responsividade
 <img src="https://user-images.githubusercontent.com/82134080/162427819-64a15287-e535-44f8-b0c0-a841ee28134a.png" alt="Responsividade" width="50%">
 <img src="https://user-images.githubusercontent.com/82134080/162428046-fcef8e9c-3a3b-44e5-8744-bd252a91c7e9.png" alt="Responsividade" width="50%">
 
